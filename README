@@ -1,0 +1,19 @@
+Overview
+===========
+This is an app to play Rock-Paper-Scissors (a.k.a, "じゃんけん" in Japanese).  
+
+Application description
+=======================
+With this application, you can play Rock-Paper-Scissors based on the following rules.
+
+* You can play each hand (rock, paper, and scissors) a maximum of 10 times
+* Opponent hands are provided by http://example.com/randhand as number strings.
+    * 0, 1, and 2 represents rock, paper, and scissors respectively.
+    * The server is not reliable. It sometimes replies with an invalid value.
+    * (This server does not actually exist.)
+
+If there is an error, this application must report to http://example.com/randhand.  
+
+How to improve code quality
+===========================
+???
